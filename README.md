@@ -2,17 +2,15 @@
 
 ### CSE @ NIT Srinagar 2028
 
-My main interests are **AI, backend engineering, distributed systems, data, and cloud infrastructure**. I like working on projects where AI is not just an added feature, but actually becomes part of the system's logic — whether that's retrieving information, making predictions, deciding what action to take, or creating better user experiences.
+I'm interested in **AI, backend engineering, distributed systems, data engineering, and cloud infrastructure**. I enjoy building systems where AI is part of the core logic — from retrieval and prediction to decision-making and intelligent user interactions.
 
-I've worked across different parts of the stack, from building **REST APIs and backend services** to designing **real-time and distributed systems**. I've used **Java, Python, JavaScript, SQL, Node.js, and Express**, along with technologies such as **MongoDB, Redis, RabbitMQ, WebSockets, and Socket.IO**. I'm particularly interested in understanding how backend components communicate, how asynchronous systems work, and how applications can be designed to handle real-world constraints.
+I've worked across the backend and AI stack with **Java, Python, JavaScript, SQL, Node.js, and Express**, using **MongoDB, Redis, RabbitMQ, WebSockets, and Socket.IO** to build APIs, real-time applications, and distributed systems.
 
-On the AI side, I've been exploring **Generative AI, LLMs, AI agents, RAG, embeddings, vector search, and machine learning**. I've worked with **LangChain, LangGraph, Gemini, OpenAI, OpenRouter, and Scikit-learn**. What interests me most is combining these technologies with traditional software engineering — building systems where models can make predictions, intelligent layers can make decisions, and LLMs can handle natural-language interactions.
+On the AI side, I'm exploring **Generative AI, LLMs, AI Agents, RAG, embeddings, vector search, and ML**, using **LangChain, LangGraph, Gemini, OpenAI, OpenRouter**.
 
-I've also worked with **AWS and cloud infrastructure**, including **EC2, S3, and CloudFront**. I've deployed applications on EC2, worked with Linux-based servers, managed Node.js services using **PM2**, containerized applications with **Docker**, and worked with service-to-service communication using technologies such as **RabbitMQ and Redis**.
+I've also worked with **AWS (EC2, S3, CloudFront)**, deploying applications on Linux servers with **Docker and PM2**, and handling practical challenges around memory, networking, processes, logs, and configuration.
 
-Working with AWS has also given me experience beyond simply deploying an application. I've dealt with **server resources, memory limitations, networking, environment configuration, process management, application logs, and deployment issues** while getting different parts of an application running together.
-
-For data engineering, I've worked with **Snowflake, dbt, Apache Airflow, S3, Docker, and Streamlit**, building pipelines involving **incremental processing, medallion architecture, dimensional modeling, data quality checks, orchestration, and AI-based data enrichment**.
+For data engineering, I've worked with **Snowflake, dbt, Apache Airflow, S3, Docker, and Streamlit**, building pipelines with **incremental processing, medallion architecture, dimensional modeling, data quality, and AI-based enrichment**.
 
 ---
 
@@ -22,9 +20,7 @@ For data engineering, I've worked with **Snowflake, dbt, Apache Airflow, S3, Doc
 
 An **AI-powered revenue recovery system** built for the **Razorpay AI Buildathon 2026**.
 
-ARIA analyzes failed payment transactions to identify valuable recovery opportunities, assigns a **recovery priority score**, predicts the **probability of successful recovery using a Random Forest model**, and uses an intelligent decision layer to recommend the next best recovery action.
-
-It then uses **Google Gemini** to generate personalized customer recovery messages while keeping **prediction, decision-making, and communication** as separate components.
+ARIA analyzes failed payments, calculates **recovery priority**, predicts **recovery probability using Random Forest**, recommends the next recovery action, and generates personalized messages using **Google Gemini**.
 
 ```text
 Failed Payment
@@ -37,59 +33,39 @@ ML Recovery Prediction
       ↓
 Decision Engine
       ↓
-Gemini-Powered Message
+Gemini Message
       ↓
 Recovery Action
 ```
 
-A key design principle in ARIA is separating **priority from probability**:
+**Priority** → How valuable is the transaction to recover?
+**Recovery Probability** → How likely is it to be recovered?
 
-* **Priority** → How valuable is this transaction to recover?
-* **Recovery Probability** → How likely is the payment to be successfully recovered?
-
-This allows the system to make recovery decisions using both **business value and predicted recoverability**, rather than treating every failed payment equally.
-
-**Tech:** Python • Streamlit • Scikit-learn • Random Forest • Google Gemini • Pandas • NumPy • Plotly
+**Tech:** Python • Streamlit • Scikit-learn • Random Forest • Gemini • Pandas • NumPy • Plotly
 
 ---
 
-
 ## 🛠️ Technologies I Work With
 
-**Languages**
+**Languages:** Java • Python • JavaScript • SQL
 
-Java • Python • JavaScript • SQL
+**Backend & Distributed:** Node.js • Express • REST APIs • WebSockets • Socket.IO • Microservices • RabbitMQ • Redis • JWT • OAuth2
 
-**Backend & Distributed Systems**
+**AI / ML:** Generative AI • LLMs • RAG • AI Agents • LangChain • LangGraph • Gemini • OpenAI • OpenRouter • Embeddings • Vector Search
 
-Node.js • Express • REST APIs • WebSockets • Socket.IO • Microservices • RabbitMQ • Redis • JWT • OAuth2
+**Data:** MongoDB • MySQL • Snowflake • Pandas • NumPy • dbt • Apache Airflow
 
-**AI / ML**
+**Cloud & DevOps:** AWS EC2 • S3 • CloudFront • Docker • PM2 • Linux
 
-Generative AI • LLMs • RAG • AI Agents • LangChain • LangGraph • Gemini • OpenAI • OpenRouter • Scikit-learn • Embeddings • Vector Search
-
-**Data**
-
-MongoDB • MySQL • Snowflake • Pandas • NumPy • dbt • Apache Airflow
-
-**Cloud & DevOps**
-
-AWS EC2 • AWS S3 • CloudFront • Docker • PM2 • Linux
-
-**Tools**
-
-Git • GitHub • Postman • Streamlit
+**Tools:** Git • GitHub • Postman • Streamlit
 
 ---
 
 ## 🎯 What I'm Exploring
 
-I'm currently interested in:
-
 **AI + Backend + Data + Cloud**
 
-I'm especially interested in building systems where these pieces work together — from collecting and processing data, to building backend services, integrating AI models, deploying them on cloud infrastructure, and eventually making the whole system reliable and scalable.
+I'm focused on building practical systems that combine **AI models, backend services, data pipelines, and cloud infrastructure** into reliable and scalable applications.
 
-I'm still learning, experimenting, breaking things, debugging them, and building again.
+I'm learning, experimenting, debugging, and building — that's what I enjoy most.
 
-That's the part I enjoy most.
