@@ -17,7 +17,7 @@ Languages: Java • Python • JavaScript • SQL
 
 Backend: Node.js • Express • REST APIs • WebSockets • Socket.IO • Microservices • RabbitMQ • Redis
 
-AI / ML: Generative AI • LLMs • RAG • AI Agents • LangChain • LangGraph • Gemini • OpenAI • OpenRouter • Embeddings • Vector Search • Scikit-learn
+AI / ML: Generative AI • LLMs • RAG • AI Agents • LangChain • LangGraph • Gemini • OpenAI • OpenRouter • Embeddings • Vector Search 
 
 Data: MongoDB • MySQL • Snowflake • Pandas • NumPy • dbt • Apache Airflow
 
