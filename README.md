@@ -55,7 +55,7 @@ Recovery Action
 
 **Data:** MongoDB • MySQL • Snowflake • Pandas • NumPy • dbt • Apache Airflow
 
-**Cloud & DevOps:** AWS EC2 • S3 • CloudFront • Docker • PM2 • Linux
+**Cloud & DevOps:** AWS EC2 • S3 • CloudFront • Docker • PM2 
 
 **Tools:** Git • GitHub • Postman • Streamlit
 
