@@ -6,4 +6,3 @@ In AI Engineering, I developed an **Agentic RAG system** to address complex info
 
 My approach combines problem-solving, appropriate technology selection, system design, implementation, and performance evaluation to build software that is scalable, reliable, and useful in real-world scenarios.
 
-**Currently seeking opportunities in Software Development, Backend Engineering, and AI Engineering.**
